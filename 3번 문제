@@ -1,0 +1,10 @@
+# 3번 문제 결과물
+
+![실행 결과](3번사진.png)
+
+## 내가 작성한 코드
+import turtle
+t = turtle.Turtle()    #과제 채점 프로그램(구름)에서 as 사용 미지원
+t.speed(0)  #가장 빠르게
+t.lt(90)
+t.circle(100, 180)
