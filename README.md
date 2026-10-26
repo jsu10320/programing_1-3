@@ -1,3 +1,12 @@
 # 1번 문제 결과물
 
 ![실행 결과](aa17cf853f514d2fb72aa86cff1d0c80.png)
+
+## 위 사진이 나오는 코드
+
+import turtle
+t = turtle.Turtle()    #과제 채점 프로그램(구름)에서 as 사용 미지원
+t.speed(0)  #가장 빠르게
+for a in range(6):
+	t.fd(100)
+	t.lt(60)
